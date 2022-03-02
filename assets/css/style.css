@@ -39,7 +39,10 @@ header {
     background-size: cover; */
     /* Dark Network */
     background-image: url("https://images.squarespace-cdn.com/content/v1/5df018ec4c9d61288094246c/1578939705332-EW5YRCD1F4FZX9QBMWEJ/interiorheader5.png?format=2500w");
-    height: 400px;
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 header h1 {
@@ -53,6 +56,7 @@ header h2 {
     padding-left: 1%;
     padding-right: 1%;
     padding-top: 10%;
+    text-align: left;
 }
 
 .header-format {
@@ -70,6 +74,12 @@ header h2 {
     padding-left: 1%;
     padding-right: 1%;
     margin-left: 0.5%;
+    text-align: center;
+    padding-top: .5%;
+}
+
+.box h2 {
+    font-size: 175%;
 }
 
 .box1 {
@@ -80,6 +90,16 @@ header h2 {
     max-width: 600px;
     justify-content: flex-start;
     margin-right: 2%;
+    text-align: center;
+}
+
+.box.box1 img {
+    padding-top: 2rem;
+
+}
+
+.box.box1 p {
+    padding-top: 2rem;
 }
 
 .headshot {
@@ -115,3 +135,29 @@ header h2 {
     min-height: 200px;
     max-height: 600px;
 }
+
+.flex-container-child section img {
+    height: 80%;
+    width: 100%;
+}
+
+footer {
+    /* display: flex;
+    flex-direction: column; */
+
+}
+
+footer h2 {
+    font-size: 175%;
+    text-align: left;
+}
+
+footer div.footer {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1.5rem;
+}
+
+/* @media screen {
+    
+} */
