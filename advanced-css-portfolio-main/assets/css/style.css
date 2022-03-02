@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color:#d6d6d6;
+    /* color: #aaaaaa; */
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkxelTg8o9wTcX-Oq-Qxlg__SV7VwfC8mKu2kLh6m35_s3p2EndaMdJqaQBDUpeHMr_V0&usqp=CAU"); */
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+body {
+    padding: 10px;
+    background-color: #141313
+}
+
+#viewport {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+header, footer, .box {
+    outline: 1px solid white;
+    min-height: 100px;
+}
+
+header, footer {
+    width: 100%;
+}
+
+header {
+    /* Red Geometric */
+    /* background-image: url("https://www.bypeople.com/wp-content/uploads/2015/07/svg-low-poly-background-css-js-snippet-460x230.jpg"); */
+    /* Blue fade to Geometric */
+    /* background-image: url("https://cutewallpaper.org/21/css-background-stretch-to-fit/Learn-About-Responsive-Images-CSS-styling-for-Responsive-.jpg"); */
+    /* light shapes */
+    /* background-image: url("https://www.bivio.com/uwcmc/file/public/header-background.png");
+    background-size: cover; */
+    /* Dark Network */
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5df018ec4c9d61288094246c/1578939705332-EW5YRCD1F4FZX9QBMWEJ/interiorheader5.png?format=2500w");
+    height: 400px;
+}
+
+header h1 {
+    font-size: 300%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+header h2 {
+    font-size: 200%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 10%;
+}
+
+.header-format {
+    display: flex;
+    flex-direction: column;
+    /* max-width: 25%; */
+    min-width: 30%;
+    max-height: 50%;
+    /* text-align: center; */
+}
+
+.box {
+    height: 400px;
+    width: 25%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 0.5%;
+}
+
+.box1 {
+    height: 100vh;
+    width: 25%;
+    /* look into flex-growth and flex-shrink instead of min-width and max-width. */
+    min-width: 200px;
+    max-width: 600px;
+    justify-content: flex-start;
+    margin-right: 2%;
+}
+
+.headshot {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* .box2, .box3, .box4, .box5, .box6, .box7 {
+    
+} */
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
