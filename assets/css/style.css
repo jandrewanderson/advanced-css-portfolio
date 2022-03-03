@@ -98,8 +98,16 @@ header h2 {
     text-align: center;
 }
 
+.about-me {
+    outline: solid 1px whitesmoke;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
 .box1 h2 {
     margin-top: 6rem;
+    padding-top: 1rem;
 }
 
 .box.box1 img {
