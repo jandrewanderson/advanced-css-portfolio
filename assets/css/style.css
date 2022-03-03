@@ -30,19 +30,12 @@ header, footer {
 }
 
 header {
-    /* Red Geometric */
-    /* background-image: url("https://www.bypeople.com/wp-content/uploads/2015/07/svg-low-poly-background-css-js-snippet-460x230.jpg"); */
-    /* Blue fade to Geometric */
-    /* background-image: url("https://cutewallpaper.org/21/css-background-stretch-to-fit/Learn-About-Responsive-Images-CSS-styling-for-Responsive-.jpg"); */
-    /* light shapes */
-    /* background-image: url("https://www.bivio.com/uwcmc/file/public/header-background.png");
-    background-size: cover; */
-    /* Dark Network */
     background-image: url("https://images.squarespace-cdn.com/content/v1/5df018ec4c9d61288094246c/1578939705332-EW5YRCD1F4FZX9QBMWEJ/interiorheader5.png?format=2500w");
     height: auto;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    outline: 2px solid whitesmoke;
 }
 
 header nav ul {
@@ -50,6 +43,7 @@ header nav ul {
     text-align: right;
     align-items: flex-end;
     justify-content: flex-end;
+    padding: 1rem 1rem;
 }
 
 header nav ul li {
@@ -110,7 +104,7 @@ header h2 {
 
 .box.box1 img {
     padding-top: 2rem;
-
+    
 }
 
 .box.box1 p {
@@ -132,15 +126,17 @@ header h2 {
     align-items: flex-start;
     margin-left: 0.5%;
     margin-right: 0.5%;
+    /* outline: solid 1px #d6d6d6; */
 }
 
 .flex-container-child {
     display: flex;
     flex-wrap: wrap;
     /* border: solid 1px white; */
-    height: 100vh;
+    /* height: 100vh; */
     width: 70%;
     justify-content: flex-end;
+    /* outline: solid 1px #d6d6d6; */
 }
 
 .box2, .box3, .box4, .box5, .box6, .box7 {
@@ -149,11 +145,17 @@ header h2 {
     max-width: 500px;
     min-height: 200px;
     max-height: 600px;
+    /* outline: solid 1px #d6d6d6; */
 }
 
 .flex-container-child section img {
     height: 80%;
     width: 100%;
+    outline: solid 1px whitesmoke;
+}
+
+.flex-container-child section.box img:hover {
+    opacity: 5;
 }
 
 footer {
@@ -168,6 +170,7 @@ footer {
 footer h2 {
     font-size: 175%;
     text-align: center;
+    padding-top: 1.5rem;
 }
 
 footer div.footer {
