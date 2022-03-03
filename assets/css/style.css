@@ -91,7 +91,6 @@ header h2 {
 
 .box h2 {
     font-size: 175%;
-    
 }
 
 .box1 {
@@ -103,6 +102,10 @@ header h2 {
     justify-content: flex-start;
     margin-right: 2%;
     text-align: center;
+}
+
+.box1 h2 {
+    margin-top: 6rem;
 }
 
 .box.box1 img {
@@ -153,6 +156,14 @@ header h2 {
     width: 100%;
 }
 
+footer {
+    outline: 2px solid whitesmoke;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5df018ec4c9d61288094246c/1578939705332-EW5YRCD1F4FZX9QBMWEJ/interiorheader5.png?format=2500w");
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 footer h2 {
     font-size: 175%;
@@ -207,10 +218,12 @@ footer div.footer {
         height: auto;
         padding-bottom: 2%;
         margin-bottom: 2%;
+        margin-top: 2rem;
     }
 
     .flex-container-child {
         margin-left: 15%;
+        margin-top: 5rem;
     }
 
     footer h2 {
