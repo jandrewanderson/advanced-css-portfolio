@@ -147,6 +147,10 @@ header h2 {
     /* outline: solid 1px #d6d6d6; */
 }
 
+.flex-container-child h2 {
+    margin-bottom: 1rem;
+}
+
 .box2, .box3, .box4, .box5, .box6, .box7 {
     width: 30%;
     min-width: 150px;
@@ -163,7 +167,10 @@ header h2 {
 }
 
 .flex-container-child section.box img:hover {
-    opacity: 5;
+    opacity: 0.5;
+    /* outline: 3px solid whitesmoke; */
+	transform: scale(1.05);
+    box-shadow: 1px 1px 13px whitesmoke;
 }
 
 footer {
