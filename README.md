@@ -2,7 +2,7 @@
 
 ## Objectives
 
-The purpose of this assignment was to create a page that will showcase my future work in web deveolopment. The page was intended to fit on all screen sizes as well as having links to different sections of the page as well as to outside sources.
+The purpose of this assignment was to create a page that will showcase my future work in web deveolopment. The page was intended to fit on all screen sizes as well as having links to different sections of the page as well as to outside sources. I currently have links to some of my favorite social media, gaming, and streaming services. These will serve as placeholders for the future web pages that I will post here.
 
 ## Screenshot of Final Page
 

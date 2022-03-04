@@ -3,8 +3,6 @@
     margin: 0;
     padding: 0;
     color:#d6d6d6;
-    /* color: #aaaaaa; */
-    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkxelTg8o9wTcX-Oq-Qxlg__SV7VwfC8mKu2kLh6m35_s3p2EndaMdJqaQBDUpeHMr_V0&usqp=CAU"); */
     font-family:'Times New Roman', Times, serif;
 }
 
@@ -21,7 +19,6 @@ body {
 }
 
 header, footer, .box {
-    /* outline: 1px solid white; */
     min-height: 100px;
 }
 
@@ -67,11 +64,30 @@ header h2 {
 .header-format {
     display: flex;
     flex-direction: column;
-    /* max-width: 25%; */
     min-width: 30%;
     max-height: 50%;
-    /* text-align: center; */
 }
+
+
+
+.hide {
+    display: none;
+    outline: 1px solid whitesmoke;
+}
+
+/* These will be added in later. */
+
+/* .hover:hover {
+    font-size: x-large;
+}
+
+.hover:hover + .hide {
+    display: block;
+    position:absolute;
+    height: auto;
+    right: 100px;
+    background-color: #141313;
+} */
 
 .box {
     height: 400px;
@@ -90,7 +106,6 @@ header h2 {
 .box1 {
     height: 100vh;
     width: 25%;
-    /* look into flex-growth and flex-shrink instead of min-width and max-width. */
     min-width: 200px;
     max-width: 600px;
     justify-content: flex-start;
@@ -134,17 +149,13 @@ header h2 {
     align-items: flex-start;
     margin-left: 0.5%;
     margin-right: 0.5%;
-    /* outline: solid 1px #d6d6d6; */
 }
 
 .flex-container-child {
     display: flex;
     flex-wrap: wrap;
-    /* border: solid 1px white; */
-    /* height: 100vh; */
     width: 70%;
     justify-content: flex-end;
-    /* outline: solid 1px #d6d6d6; */
 }
 
 .flex-container-child h2 {
@@ -157,7 +168,6 @@ header h2 {
     max-width: 500px;
     min-height: 200px;
     max-height: 600px;
-    /* outline: solid 1px #d6d6d6; */
 }
 
 .flex-container-child section img {
@@ -168,7 +178,6 @@ header h2 {
 
 .flex-container-child section.box img:hover {
     opacity: 0.5;
-    /* outline: 3px solid whitesmoke; */
 	transform: scale(1.05);
     box-shadow: 1px 1px 13px whitesmoke;
 }
@@ -251,8 +260,6 @@ footer div.footer {
     .footer {
         display: flex;
         flex-direction: column;
-        /* justify-content: center;
-        align-items: center; */
         text-align: center;
         height: auto;
         padding-top: 2%;
@@ -260,5 +267,3 @@ footer div.footer {
         margin-top: auto;
     }
 }
-
-/* when hovering the images that have links attached to them, it should change in opacity */
