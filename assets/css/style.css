@@ -139,6 +139,18 @@ header h2 {
     max-height: 100%;
 }
 
+.resume {
+    width: 30%;
+    height: 18rem;
+    min-width: 150px;
+    min-height: 200px;
+}
+
+.resume-image {
+    width: 10rem;
+    height: 15rem;
+}
+
 
 .flex-container {
     display: flex;
@@ -164,10 +176,24 @@ header h2 {
 
 .box2, .box3, .box4, .box5, .box6, .box7 {
     width: 30%;
+    height: 18rem;
     min-width: 150px;
-    max-width: 500px;
     min-height: 200px;
-    max-height: 600px;
+}
+
+.box8 {
+    width: 80%;
+    height: 50rem;
+    min-width: 150px;
+    min-height: 200px;
+}
+
+.box9, .box10 {
+    width: 40%;
+    height: 35rem;
+    min-width: 150px;
+    min-height: 200px;
+    margin-top: -3.8rem;
 }
 
 .flex-container-child section img {
@@ -189,6 +215,7 @@ footer {
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: 2rem;
 }
 
 footer h2 {
